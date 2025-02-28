@@ -1,0 +1,82 @@
+.working-hours-page {
+
+    .fc-header-toolbar {
+        .fc-button-group {
+          .fc-prev-button,
+          .fc-next-button {
+            min-width: 50px;
+            padding: 0px;
+          }
+        }
+      }
+    .fc-view-container {
+      border-radius: 20px;
+      .fc-widget-content {
+        background-color: #fff;
+      }
+      .fc-day-header {
+        font-size: 1.4rem;
+      }
+      .fc-body {
+        cursor: pointer;
+      }
+    }
+  
+    .schedule-content {
+      border-radius: 12px;
+  
+      &:hover {
+        background-color: #ccc;
+        .ant-card-actions {
+          background-color: transparent;
+          border: none;
+          visibility: visible;
+          color: #fff;
+          display: flex;
+  
+          li {
+            border: none;
+          }
+        }
+      }
+  
+      .ant-card-body {
+        padding: 5px;
+  
+        .ant-card-meta-title {
+          text-transform: capitalize;
+          color: #fff;
+        }
+        .ant-card-meta-description {
+          font-size: 0.8rem;
+          color: #fff;
+        }
+      }
+      .ant-card-actions {
+        visibility: hidden;
+        li {
+          .edit-icon {
+            font-size: 1.1rem;
+          }
+          .delete-icon {
+            font-size: 1rem;
+          }
+  
+          .delete-icon,
+          .edit-icon {
+            display: inline;
+  
+            &:hover {
+              color: #ddd;
+            }
+          }
+          margin: 0;
+          .delete-icon,
+          .edit-icon {
+            color: #fff;
+          }
+        }
+      }
+    }
+    
+}

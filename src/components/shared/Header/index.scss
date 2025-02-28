@@ -1,0 +1,21 @@
+header.header {
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+  .menu {
+    float: right;
+    line-height: 61px;
+    box-shadow: none;
+    border-bottom-width: 0;
+
+    .ant-menu-item {
+      text-transform: uppercase;
+
+      &.ant-menu-item-selected,
+      &.ant-menu-item-active {
+        border-bottom-color: transparent;
+        color: #111;
+      }
+    }
+  }
+}

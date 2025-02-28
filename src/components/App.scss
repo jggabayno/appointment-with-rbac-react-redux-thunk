@@ -1,0 +1,41 @@
+@import "../assets/styles/variables";
+
+.layout {
+  .sub-layout {
+    position: relative;
+    overflow: hidden;
+
+    .page {
+      .page-content {
+        background: #fcf9f4;
+        padding: 20px 35px;
+        .title-add {
+          margin: 20px 0px;
+          .page-title {
+            font-size: 24px;
+          }
+          button {
+            margin: 10px;
+            height: 40;
+          }
+        }
+        .search-input {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
