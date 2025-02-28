@@ -34,7 +34,7 @@ The project utilizes Redux and Redux Thunk for state management. It also integra
 ### Requirements
 
 - Node.js 12.x to 14.x 
-- Yarn or npm
+- npm
 
 ### Setup
 
@@ -42,7 +42,7 @@ The project utilizes Redux and Redux Thunk for state management. It also integra
 2. Install dependencies:
 
    ```sh
-   yarn install
+   npm run install
    ```
 
 3. Request the `.env` file from authorized personnel.
@@ -54,7 +54,7 @@ The project utilizes Redux and Redux Thunk for state management. It also integra
 To start the development server:
 
 ```sh
-yarn dev
+npm run dev
 ```
 
 After running, access the application at:
@@ -68,6 +68,6 @@ http://localhost:3000/
 To build and start the production server:
 
 ```sh
-yarn build
-yarn start
+npm run build
+npm run start
 ```
