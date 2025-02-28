@@ -42,7 +42,7 @@ The project utilizes Redux and Redux Thunk for state management. It also integra
 2. Install dependencies:
 
    ```sh
-   npm run install
+   npm install
    ```
 
 3. Request the `.env` file from authorized personnel.
